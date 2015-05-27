@@ -1,9 +1,9 @@
 filter:
-    excluded_paths:
-        - 'bin/*'
-        - 'test/*'
+  excluded_paths:
+    - 'bin/*'
+    - 'test/*'
 checks:
-    php: true
+  php: true
 build_failure_conditions:
-    - 'elements.rating(<= D).new.exists'
-    - 'issues.new.exists'
+  - 'elements.rating(<= D).new.exists'
+  - 'issues.new.exists'
